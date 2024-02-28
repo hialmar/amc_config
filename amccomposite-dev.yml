@@ -46,6 +46,8 @@ eureka:
 logging:
   level:
     org.springframework.web: INFO # Choix du niveau de log affiché
+    fr.miage.amc_composite.clients.ClientClients: DEBUG
+    fr.miage.amc_composite.clients.ClientComptes: DEBUG
 
 # Proprietes du serveur d'entreprise
 server:
