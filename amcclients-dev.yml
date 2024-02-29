@@ -18,7 +18,7 @@ spring:
     username: root
     password: my-secret-pw
   jpa:                                                      # Configuration JPA
-    database-platform: org.hibernate.dialect.MySQL5Dialect  # On va parler en MySQL
+    database-platform: org.hibernate.dialect.MySQLDialect  # On va parler en MySQL
     hibernate:
       # NE PAS LAISSER EN PROD
       ddl-auto: update                                      # strategie create-drop.
